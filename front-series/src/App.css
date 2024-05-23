@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.titulo {
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  font-size: 68px;
+  margin: 0;
+  color: #E6A2B0; /* Color naranja */
+  text-shadow: 2px 2px #530253, 4px 4px #580258, 6px 6px #350e28; /* Sombra de texto de colores */
+}
+
+.nav-link-custom {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+  font-size: 40px; /* Ajusta el tamaño de la fuente según tus necesidades */
+  color: #530253 !important; /* Morado oscuro */
+  border: 2px solid #020202;
+  border-radius: 5px; /* Opcional: para redondear los bordes */
+  margin: 5px; /* Espaciado entre las pestañas */
+  text-align: center; /* Alinear el texto al centro */
+}
+
+.p{
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+  font-size: 15px; /* Ajusta el tamaño de la fuente según tus necesidades */
+  color: #530253 !important; /* Morado oscuro */
+  text-align: left; /* Alinear el texto al centro */ 
+}
+
+.nav-link-custom:hover {
+  color: #E6A2B0 !important; /* Cambia el color al pasar el ratón (opcional) */
+  background-color: #f0e6ff; 
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination-custom .page-link {
+  color: #fff;
+  background-color: #6a0dad; /* Color morado */
+  border: 1px solid #6a0dad; /* Borde morado */
+}
+
+.pagination-custom .page-link:hover {
+  background-color: #530253; /* Morado oscuro para el hover */
+  border-color: #530253; /* Borde morado oscuro para el hover */
+}
+
+.pagination-custom .page-item.active .page-link {
+  background-color: #530253; /* Morado oscuro para el activo */
+  border-color: #530253; /* Borde morado oscuro para el activo */
+}
+
